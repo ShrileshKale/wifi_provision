@@ -34,9 +34,6 @@ def wpa_supplicant_new():
 
 def main(ssid,passwd):
     filename_bkp = filename + ".bkp"
-    
-    # ssid = "IOG"
-    # passwd = "iogreen1092"
     priority = "2"
     replace = True
     interface = 'wlan0'
